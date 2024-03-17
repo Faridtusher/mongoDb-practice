@@ -1,5 +1,5 @@
 const {app, port, hostname} = require('./app')
-const connectDb = require('./model/connectDb')
+const {connectDb} = require('./app')
 
 // ren the server
 app.listen(port, hostname, async () =>{
